@@ -37,7 +37,7 @@ function Navbar() {
     return (
         <AppBar className={classes.appBar} position="static" color="inherit">
             <div className={classes.brandContainer}>
-            <Typography component={Link} to="/" className={classes.heading} variant="h2" align="center">Listiee Internship</Typography>
+            <Typography component={Link} to="/" className={classes.heading} variant="h2" align="center">Events</Typography>
             <img className={classes.image} src={memories} alt="icon" height="60" />
             </div>
 
